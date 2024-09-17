@@ -1,0 +1,111 @@
+/*
+Color Palette
+
+RED #731D34
+BLACK #222226
+BLUE #424C59
+TAN #D9B9A7
+PALE BROWN #8C8280
+*/
+
+/* Global Styles
+----------------------------------------------------*/
+
+/* 
+  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #ffffff;
+    margin: 0;
+}
+
+/* link styles */
+
+a {
+    color: #731D34;
+}
+a:hover {
+    color: #8C8280
+}
+footer a {
+    color: #731D34;
+}
+footer a:hover {
+    color: #D9B9A7;
+}
+.btn {
+    background: #731D34;
+    color: #D9B9A7;
+    text-decoration: none;
+}
+.content-wrapper {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+}
+
+/* HOME
+----------------------------------------------------*/
+.home {
+    background: url(../images/bg-home-office-studio.jpg) no-repeat;
+background-size: cover;
+}
+
+.home .content-wrapper {
+    background: rgb(255 255 255);
+}
+/* RESUME
+----------------------------------------------------*/
+.resume header::before {
+    background: url(../images/bg-home-office-studio.jpg) center;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 375px;
+}
+
+/* Profile
+----------------------------------------------------*/
+
+
+/* Projects
+----------------------------------------------------*/
+
+
+/* Work Experience
+----------------------------------------------------*/
+
+
+/* Education
+----------------------------------------------------*/
+
+
+/* Footer
+----------------------------------------------------*/
+
+footer {
+background: #222226;
+color: #D9B9A7;
+}
+
+.socials {
+    list-style-type: none;
+    padding: 0;
+}
+.socials li {
+display: inline-block;
+}
+
+.socials img {
+    width: 32px; 
+}
